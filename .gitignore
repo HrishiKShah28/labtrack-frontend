@@ -1,0 +1,84 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# 1. Abort the current rebase (you already did this - good!)
+git rebase --abort
+
+# 2. Pull the remote changes first
+git pull origin main --allow-unrelated-histories
+
+# 3. Now push your code
+git push origin main
+```
+
+---
+
+## 📝 Proper `.gitignore` for Frontend
+
+Here's what should be in your `frontend/.gitignore`:
+```
+# Dependencies
+>>>>>>> 9960fd4c632af69c4019274d6f7bad7c5386c33c
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production build
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+<<<<<<< HEAD
+.vercel/
+=======
+# Logs
+logs
+*.log
+=======
+# Logs
+>>>>>>> 9960fd4c632af69c4019274d6f7bad7c5386c33c
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+<<<<<<< HEAD
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+=======
+
+# Editor directories and files
+.vscode/
+.idea/
+>>>>>>> 9960fd4c632af69c4019274d6f7bad7c5386c33c
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+<<<<<<< HEAD
+>>>>>>> f2c2096 (Initial commit)
+=======
+
+# Temporary files
+*.tmp
+*.temp
+>>>>>>> 9960fd4c632af69c4019274d6f7bad7c5386c33c
